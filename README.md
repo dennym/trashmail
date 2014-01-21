@@ -1,4 +1,4 @@
-# trashmailer based on sinatra and redis 
+# trashmailer based on sinatra, redis and faye
 
 ### requires redis server
 
@@ -14,7 +14,7 @@ sudo make install
 
 ```
 bundle install
-ruby trashmailer
+rackup
 ```
 
 ### TODO
