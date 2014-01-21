@@ -1,0 +1,20 @@
+<div id="list">
+	<a href="/logout">logout</a>
+	<p>At the moment there are <%= @count %> trashmails active.</p>
+	<table>
+		<tr>
+			<th>shortcode</th>
+			<th>url</th>
+			<th>clicks</th>
+			<th>timeout</th>
+		</tr>
+	<% .times do |n| %>
+		<tr>
+			<td><%= [n] %></td>
+			<td><%= [n] %></td>
+			<td><%= [n] %></td>
+			<td><%= [n] %></td>
+		</tr>
+	<% end %>
+	</table>
+</div>
